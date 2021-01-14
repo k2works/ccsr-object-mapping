@@ -80,3 +80,17 @@ Javaを使ったアプリケーション開発の経験者を対象に、Spring 
 * ドキュメント生成 ： JIG
 
 詳細は、オンラインのドキュメント（```localhost:8080```で表示）とソースコードを参考にしてください。
+
+### PostgreSQLに接続する
+
+```
+./gradlew build
+java -jar ./build/libs/mapping-1.0-SNAPSHOT.jar -Xms256m --spring.profiles.active=postgresql
+```
+
+### ER図を出力する
+
+```
+./gradlew schemaSpy
+ open ./build/schemaSpy/index.html 
+```
