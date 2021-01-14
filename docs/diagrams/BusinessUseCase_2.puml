@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+
+actor 会員
+entity 蔵書
+agent 窓口
+node 書籍店
+
+会員 -- (棚卸)
+(棚卸) -- 蔵書
+(棚卸) --- 窓口
+
+会員 -- (書籍補充)
+(書籍補充) -- 蔵書
+(書籍補充) --- 窓口
+(書籍補充) -- 書籍店
+@enduml

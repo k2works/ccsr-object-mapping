@@ -1,0 +1,119 @@
+<svg width="942px" height="181px"
+ viewBox="0.00 0.00 941.58 181.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 177)">
+<title>区分使用図</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-177 937.58,-177 937.58,4 -4,4"/>
+<text text-anchor="middle" x="466.79" y="-7.8" font-family="Times,serif" font-size="14.00">区分使用図</text>
+<!-- example.domain.type.Type -->
+<g id="node1" class="node">
+<title>example.domain.type.Type</title>
+<polygon fill="#eedd82" stroke="black" points="916.58,-173 862.58,-173 862.58,-135 916.58,-135 916.58,-173"/>
+<text text-anchor="middle" x="889.58" y="-157.8" font-family="Times,serif" font-size="14.00">素材</text>
+<text text-anchor="middle" x="889.58" y="-142.8" font-family="Times,serif" font-size="14.00">Type</text>
+</g>
+<!-- example.domain.type.Covered -->
+<g id="node2" class="node">
+<title>example.domain.type.Covered</title>
+<polygon fill="#eedd82" stroke="black" points="933.58,-117 845.58,-117 845.58,-79 933.58,-79 933.58,-117"/>
+<text text-anchor="middle" x="889.58" y="-101.8" font-family="Times,serif" font-size="14.00">カバー有無</text>
+<text text-anchor="middle" x="889.58" y="-86.8" font-family="Times,serif" font-size="14.00">Covered</text>
+</g>
+<!-- example.domain.model.kit.feature.Feature -->
+<g id="node3" class="node">
+<title>example.domain.model.kit.feature.Feature</title>
+<polygon fill="#eedd82" stroke="black" points="918.08,-61 861.08,-61 861.08,-23 918.08,-23 918.08,-61"/>
+<text text-anchor="middle" x="889.58" y="-45.8" font-family="Times,serif" font-size="14.00">特徴</text>
+<text text-anchor="middle" x="889.58" y="-30.8" font-family="Times,serif" font-size="14.00">Feature</text>
+</g>
+<!-- example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit) -->
+<g id="node4" class="node">
+<title>example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit)</title>
+<g id="a_node4"><a xlink:title="StarterKitRegisterService.register(StarterKit)">
+<ellipse fill="#eedd82" stroke="black" cx="131.29" cy="-125" rx="131.08" ry="18"/>
+<text text-anchor="middle" x="131.29" y="-121.3" font-family="Times,serif" font-size="14.00">ハーブ栽培キットを登録する</text>
+</a>
+</g>
+</g>
+<!-- example.domain.model.kit.StarterKit -->
+<g id="node6" class="node">
+<title>example.domain.model.kit.StarterKit</title>
+<polygon fill="white" stroke="black" points="581.58,-116 450.58,-116 450.58,-80 581.58,-80 581.58,-116"/>
+<text text-anchor="middle" x="516.08" y="-94.3" font-family="Times,serif" font-size="14.00">ハーブ栽培キット</text>
+</g>
+<!-- example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit)&#45;&gt;example.domain.model.kit.StarterKit -->
+<g id="edge7" class="edge">
+<title>example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit)&#45;&gt;example.domain.model.kit.StarterKit</title>
+<path fill="none" stroke="black" d="M248.44,-116.81C310.75,-112.41 385.72,-107.12 440.28,-103.28"/>
+<polygon fill="black" stroke="black" points="440.83,-106.75 450.56,-102.55 440.34,-99.76 440.83,-106.75"/>
+</g>
+<!-- example.application.service.StarterKitService.listAll() -->
+<g id="node5" class="node">
+<title>example.application.service.StarterKitService.listAll()</title>
+<g id="a_node5"><a xlink:title="StarterKitService.listAll()">
+<ellipse fill="#eedd82" stroke="black" cx="131.29" cy="-71" rx="131.08" ry="18"/>
+<text text-anchor="middle" x="131.29" y="-67.3" font-family="Times,serif" font-size="14.00">ハーブ栽培キットを一覧する</text>
+</a>
+</g>
+</g>
+<!-- example.domain.model.kit.StarterKitList -->
+<g id="node7" class="node">
+<title>example.domain.model.kit.StarterKitList</title>
+<polygon fill="white" stroke="black" points="414.58,-93 298.58,-93 298.58,-57 414.58,-57 414.58,-93"/>
+<text text-anchor="middle" x="356.58" y="-71.3" font-family="Times,serif" font-size="14.00">栽培キット一覧</text>
+</g>
+<!-- example.application.service.StarterKitService.listAll()&#45;&gt;example.domain.model.kit.StarterKitList -->
+<g id="edge8" class="edge">
+<title>example.application.service.StarterKitService.listAll()&#45;&gt;example.domain.model.kit.StarterKitList</title>
+<path fill="none" stroke="black" d="M261.53,-73.32C270.65,-73.48 279.61,-73.64 288.15,-73.79"/>
+<polygon fill="black" stroke="black" points="288.3,-77.3 298.36,-73.97 288.42,-70.3 288.3,-77.3"/>
+</g>
+<!-- example.domain.model.kit.specification.Specification -->
+<g id="node9" class="node">
+<title>example.domain.model.kit.specification.Specification</title>
+<polygon fill="white" stroke="black" points="719.58,-116 617.58,-116 617.58,-80 719.58,-80 719.58,-116"/>
+<text text-anchor="middle" x="668.58" y="-94.3" font-family="Times,serif" font-size="14.00">キットの仕様</text>
+</g>
+<!-- example.domain.model.kit.StarterKit&#45;&gt;example.domain.model.kit.specification.Specification -->
+<g id="edge2" class="edge">
+<title>example.domain.model.kit.StarterKit&#45;&gt;example.domain.model.kit.specification.Specification</title>
+<path fill="none" stroke="black" d="M581.78,-98C590.27,-98 598.95,-98 607.37,-98"/>
+<polygon fill="black" stroke="black" points="607.48,-101.5 617.48,-98 607.48,-94.5 607.48,-101.5"/>
+</g>
+<!-- example.domain.model.kit.StarterKitList&#45;&gt;example.domain.model.kit.StarterKit -->
+<g id="edge5" class="edge">
+<title>example.domain.model.kit.StarterKitList&#45;&gt;example.domain.model.kit.StarterKit</title>
+<path fill="none" stroke="black" d="M414.88,-83.37C423.16,-84.58 431.79,-85.84 440.35,-87.09"/>
+<polygon fill="black" stroke="black" points="439.94,-90.57 450.35,-88.55 440.96,-83.64 439.94,-90.57"/>
+</g>
+<!-- example.domain.model.kit.feature.Features -->
+<g id="node8" class="node">
+<title>example.domain.model.kit.feature.Features</title>
+<polygon fill="white" stroke="black" points="809.58,-65 755.58,-65 755.58,-29 809.58,-29 809.58,-65"/>
+<text text-anchor="middle" x="782.58" y="-43.3" font-family="Times,serif" font-size="14.00">特徴</text>
+</g>
+<!-- example.domain.model.kit.feature.Features&#45;&gt;example.domain.model.kit.feature.Feature -->
+<g id="edge1" class="edge">
+<title>example.domain.model.kit.feature.Features&#45;&gt;example.domain.model.kit.feature.Feature</title>
+<path fill="none" stroke="black" d="M809.8,-45.75C822.19,-45.16 837.22,-44.45 850.81,-43.8"/>
+<polygon fill="black" stroke="black" points="851.03,-47.29 860.85,-43.32 850.7,-40.3 851.03,-47.29"/>
+</g>
+<!-- example.domain.model.kit.specification.Specification&#45;&gt;example.domain.type.Type -->
+<g id="edge3" class="edge">
+<title>example.domain.model.kit.specification.Specification&#45;&gt;example.domain.type.Type</title>
+<path fill="none" stroke="black" d="M719.82,-110.85C760.28,-121.19 816.18,-135.49 852.36,-144.74"/>
+<polygon fill="black" stroke="black" points="851.9,-148.23 862.46,-147.32 853.64,-141.45 851.9,-148.23"/>
+</g>
+<!-- example.domain.model.kit.specification.Specification&#45;&gt;example.domain.type.Covered -->
+<g id="edge4" class="edge">
+<title>example.domain.model.kit.specification.Specification&#45;&gt;example.domain.type.Covered</title>
+<path fill="none" stroke="black" d="M719.82,-98C754.3,-98 800,-98 835.15,-98"/>
+<polygon fill="black" stroke="black" points="835.22,-101.5 845.22,-98 835.22,-94.5 835.22,-101.5"/>
+</g>
+<!-- example.domain.model.kit.specification.Specification&#45;&gt;example.domain.model.kit.feature.Features -->
+<g id="edge6" class="edge">
+<title>example.domain.model.kit.specification.Specification&#45;&gt;example.domain.model.kit.feature.Features</title>
+<path fill="none" stroke="black" d="M709.38,-79.88C721.36,-74.42 734.43,-68.47 746.12,-63.15"/>
+<polygon fill="black" stroke="black" points="747.9,-66.18 755.55,-58.85 745,-59.81 747.9,-66.18"/>
+</g>
+</g>
+</svg>

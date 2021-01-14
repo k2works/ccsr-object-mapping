@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+
+actor 会員
+node 書籍店
+node 図書館 {
+  entity 蔵書
+  entity 書架
+  rectangle 窓口 {
+    actor 図書館員
+  }
+  rectangle 司書室 {
+    actor 司書
+  }
+
+  会員 .. (会員管理)
+  (会員管理) .. 図書館員
+
+  会員 .. (貸出返却)
+  (貸出返却) .. 図書館員
+  (貸出返却) .. 蔵書
+  (貸出返却) .. 書架
+
+  蔵書 .. (蔵書整理)
+  書架 .. (蔵書整理)
+  (蔵書整理) . 司書
+  (蔵書整理) .. 書籍店
+}
+@enduml

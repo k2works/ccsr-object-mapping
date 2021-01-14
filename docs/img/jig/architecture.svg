@@ -1,0 +1,144 @@
+<svg width="583px" height="299px"
+ viewBox="0.00 0.00 582.50 299.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 295)">
+<title>アーキテクチャ図</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-295 578.5,-295 578.5,4 -4,4"/>
+<text text-anchor="middle" x="287.25" y="-7.8" font-family="Times,serif" font-size="14.00">アーキテクチャ図</text>
+<g id="clust1" class="cluster">
+<title>clusterArchitecture</title>
+<polygon fill="none" stroke="black" points="8,-87 8,-283 215,-283 215,-87 8,-87"/>
+</g>
+<!-- domain -->
+<g id="node1" class="node">
+<title>domain</title>
+<polygon fill="#eedd82" stroke="black" points="96,-131 38,-131 38,-95 96,-95 96,-131"/>
+<text text-anchor="middle" x="67" y="-109.3" font-family="Times,serif" font-size="14.00">domain</text>
+</g>
+<!-- org.springframework -->
+<g id="node5" class="node">
+<title>org.springframework</title>
+<polygon fill="whitesmoke" stroke="black" points="228,-59 96,-59 96,-23 228,-23 228,-59"/>
+<text text-anchor="middle" x="162" y="-37.3" font-family="Times,serif" font-size="14.00">org.springframework</text>
+</g>
+<!-- domain&#45;&gt;org.springframework -->
+<g id="edge10" class="edge">
+<title>domain&#45;&gt;org.springframework</title>
+<path fill="none" stroke="black" d="M90.48,-94.7C102.56,-85.8 117.45,-74.82 130.52,-65.2"/>
+<polygon fill="black" stroke="black" points="132.81,-67.85 138.79,-59.1 128.66,-62.22 132.81,-67.85"/>
+</g>
+<!-- presentation -->
+<g id="node2" class="node">
+<title>presentation</title>
+<polygon fill="#eedd82" stroke="black" points="99.5,-275 16.5,-275 16.5,-239 99.5,-239 99.5,-275"/>
+<text text-anchor="middle" x="58" y="-253.3" font-family="Times,serif" font-size="14.00">presentation</text>
+</g>
+<!-- presentation&#45;&gt;domain -->
+<g id="edge13" class="edge">
+<title>presentation&#45;&gt;domain</title>
+<path fill="none" stroke="black" d="M44.85,-238.91C38.08,-229.01 30.51,-215.96 27,-203 22.82,-187.56 21.92,-182.17 27,-167 30.35,-157 36.42,-147.38 42.83,-139.14"/>
+<polygon fill="black" stroke="black" points="45.56,-141.33 49.27,-131.4 40.18,-136.85 45.56,-141.33"/>
+</g>
+<!-- application -->
+<g id="node3" class="node">
+<title>application</title>
+<polygon fill="#eedd82" stroke="black" points="113.5,-203 36.5,-203 36.5,-167 113.5,-167 113.5,-203"/>
+<text text-anchor="middle" x="75" y="-181.3" font-family="Times,serif" font-size="14.00">application</text>
+</g>
+<!-- presentation&#45;&gt;application -->
+<g id="edge12" class="edge">
+<title>presentation&#45;&gt;application</title>
+<path fill="none" stroke="black" d="M62.2,-238.7C64.1,-230.9 66.38,-221.51 68.48,-212.83"/>
+<polygon fill="black" stroke="black" points="71.89,-213.65 70.85,-203.1 65.08,-212 71.89,-213.65"/>
+</g>
+<!-- presentation&#45;&gt;org.springframework -->
+<g id="edge11" class="edge">
+<title>presentation&#45;&gt;org.springframework</title>
+<path fill="none" stroke="black" d="M86.65,-238.84C99.56,-229.72 113.92,-217.41 123,-203 149.28,-161.28 157.85,-103.23 160.65,-69.44"/>
+<polygon fill="black" stroke="black" points="164.15,-69.59 161.37,-59.37 157.16,-69.09 164.15,-69.59"/>
+</g>
+<!-- application&#45;&gt;domain -->
+<g id="edge1" class="edge">
+<title>application&#45;&gt;domain</title>
+<path fill="none" stroke="black" d="M73.02,-166.7C72.14,-158.98 71.08,-149.71 70.1,-141.11"/>
+<polygon fill="black" stroke="black" points="73.57,-140.64 68.95,-131.1 66.61,-141.44 73.57,-140.64"/>
+</g>
+<!-- application&#45;&gt;org.springframework -->
+<g id="edge2" class="edge">
+<title>application&#45;&gt;org.springframework</title>
+<path fill="none" stroke="black" d="M85.49,-166.87C100.58,-142.24 128.52,-96.64 146.14,-67.88"/>
+<polygon fill="black" stroke="black" points="149.23,-69.54 151.47,-59.19 143.26,-65.89 149.23,-69.54"/>
+</g>
+<!-- infrastructure -->
+<g id="node4" class="node">
+<title>infrastructure</title>
+<polygon fill="#eedd82" stroke="black" points="206.5,-275 117.5,-275 117.5,-239 206.5,-239 206.5,-275"/>
+<text text-anchor="middle" x="162" y="-253.3" font-family="Times,serif" font-size="14.00">infrastructure</text>
+</g>
+<!-- infrastructure&#45;&gt;domain -->
+<g id="edge4" class="edge">
+<title>infrastructure&#45;&gt;domain</title>
+<path fill="none" stroke="black" d="M156.79,-238.89C150.59,-220.16 139.01,-189.77 123,-167 115.6,-156.48 105.86,-146.39 96.59,-137.89"/>
+<polygon fill="black" stroke="black" points="98.78,-135.15 88.97,-131.15 94.14,-140.39 98.78,-135.15"/>
+</g>
+<!-- infrastructure&#45;&gt;application -->
+<g id="edge6" class="edge">
+<title>infrastructure&#45;&gt;application</title>
+<path fill="none" stroke="black" d="M140.49,-238.7C129.54,-229.88 116.05,-219.03 104.18,-209.47"/>
+<polygon fill="black" stroke="black" points="106.24,-206.65 96.26,-203.1 101.86,-212.1 106.24,-206.65"/>
+</g>
+<!-- infrastructure&#45;&gt;org.springframework -->
+<g id="edge7" class="edge">
+<title>infrastructure&#45;&gt;org.springframework</title>
+<path fill="none" stroke="black" d="M167.82,-238.56C170.93,-228.33 174.43,-215.08 176,-203 182.64,-151.87 183.75,-137.97 176,-87 175.11,-81.14 173.6,-74.98 171.89,-69.18"/>
+<polygon fill="black" stroke="black" points="175.09,-67.69 168.7,-59.24 168.43,-69.83 175.09,-67.69"/>
+</g>
+<!-- org.apache -->
+<g id="node7" class="node">
+<title>org.apache</title>
+<polygon fill="whitesmoke" stroke="black" points="304,-203 228,-203 228,-167 304,-167 304,-203"/>
+<text text-anchor="middle" x="266" y="-181.3" font-family="Times,serif" font-size="14.00">org.apache</text>
+</g>
+<!-- infrastructure&#45;&gt;org.apache -->
+<g id="edge5" class="edge">
+<title>infrastructure&#45;&gt;org.apache</title>
+<path fill="none" stroke="black" d="M187.44,-238.88C200.79,-229.89 217.32,-218.76 231.78,-209.03"/>
+<polygon fill="black" stroke="black" points="234.12,-211.68 240.46,-203.19 230.21,-205.87 234.12,-211.68"/>
+</g>
+<!-- com.google -->
+<g id="node8" class="node">
+<title>com.google</title>
+<polygon fill="whitesmoke" stroke="black" points="403.5,-203 322.5,-203 322.5,-167 403.5,-167 403.5,-203"/>
+<text text-anchor="middle" x="363" y="-181.3" font-family="Times,serif" font-size="14.00">com.google</text>
+</g>
+<!-- infrastructure&#45;&gt;com.google -->
+<g id="edge8" class="edge">
+<title>infrastructure&#45;&gt;com.google</title>
+<path fill="none" stroke="black" d="M206.61,-240.46C237.95,-229.55 279.92,-214.93 312.49,-203.59"/>
+<polygon fill="black" stroke="black" points="313.98,-206.78 322.28,-200.18 311.68,-200.17 313.98,-206.78"/>
+</g>
+<!-- springfox.documentation -->
+<g id="node9" class="node">
+<title>springfox.documentation</title>
+<polygon fill="whitesmoke" stroke="black" points="574.5,-203 421.5,-203 421.5,-167 574.5,-167 574.5,-203"/>
+<text text-anchor="middle" x="498" y="-181.3" font-family="Times,serif" font-size="14.00">springfox.documentation</text>
+</g>
+<!-- infrastructure&#45;&gt;springfox.documentation -->
+<g id="edge9" class="edge">
+<title>infrastructure&#45;&gt;springfox.documentation</title>
+<path fill="none" stroke="black" d="M206.62,-246.7C258.66,-235.86 345.91,-217.69 411.4,-204.04"/>
+<polygon fill="black" stroke="black" points="412.23,-207.44 421.3,-201.98 410.8,-200.59 412.23,-207.44"/>
+</g>
+<!-- example -->
+<g id="node6" class="node">
+<title>example</title>
+<polygon fill="whitesmoke" stroke="black" points="291.5,-131 228.5,-131 228.5,-95 291.5,-95 291.5,-131"/>
+<text text-anchor="middle" x="260" y="-109.3" font-family="Times,serif" font-size="14.00">example</text>
+</g>
+<!-- example&#45;&gt;org.springframework -->
+<g id="edge3" class="edge">
+<title>example&#45;&gt;org.springframework</title>
+<path fill="none" stroke="black" d="M236.03,-94.88C223.45,-85.89 207.87,-74.76 194.25,-65.03"/>
+<polygon fill="black" stroke="black" points="196.24,-62.15 186.07,-59.19 192.17,-67.85 196.24,-62.15"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+
+actor 司書
+actor 図書館員
+actor 会員
+
+actor 会員
+note right : 見たい本が図書館にあるかをWebで検索したい
+actor 会員
+note right : 借りたい本をWebで予約したい
+
+actor 図書館員
+note right : 本の貸出、返却手続きを簡素化したい
+actor 図書館員
+note right : 本の在庫をリアルタイムで把握したい
+
+actor 司書
+note right : 本の購入を簡素化したい
+actor 司書
+note right : 返却率が悪くならないように返却を簡単にする
+@enduml

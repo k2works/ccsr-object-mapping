@@ -1,0 +1,166 @@
+<svg width="784px" height="428px"
+ viewBox="0.00 0.00 784.00 428.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 401)">
+<title>ユースケース複合図</title>
+<polygon fill="white" stroke="transparent" points="-4,27 -4,-401 780,-401 780,27 -4,27"/>
+<text text-anchor="middle" x="388" y="15.2" font-family="Times,serif" font-size="14.00">ユースケース複合図</text>
+<!-- example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit) -->
+<g id="node1" class="node">
+<title>example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit)</title>
+<g id="a_node1"><a xlink:title="StarterKitRegisterService.register(StarterKit)">
+<ellipse fill="greenyellow" stroke="black" cx="409.81" cy="-256.92" rx="131.08" ry="18"/>
+<text text-anchor="middle" x="409.81" y="-253.22" font-family="Times,serif" font-size="14.00">ハーブ栽培キットを登録する</text>
+</a>
+</g>
+</g>
+<!-- example.domain.model.kit.StarterKit -->
+<g id="node2" class="node">
+<title>example.domain.model.kit.StarterKit</title>
+<g id="a_node2"><a xlink:title="StarterKit">
+<polygon fill="none" stroke="black" points="505.61,-230.86 374.61,-230.86 374.61,-194.86 505.61,-194.86 505.61,-230.86"/>
+<text text-anchor="middle" x="440.11" y="-209.16" font-family="Times,serif" font-size="14.00">ハーブ栽培キット</text>
+</a>
+</g>
+</g>
+<!-- example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit)&#45;&gt;example.domain.model.kit.StarterKit -->
+<g id="edge1" class="edge">
+<title>example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit)&#45;&gt;example.domain.model.kit.StarterKit</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M422.13,-239C423.97,-236.33 425.86,-233.58 427.7,-230.91"/>
+</g>
+<!-- example.presentation.api.kit.StarterKitController -->
+<g id="node3" class="node">
+<title>example.presentation.api.kit.StarterKitController</title>
+<g id="a_node3"><a xlink:title="StarterKitController">
+<polygon fill="lightgray" stroke="black" points="731.58,-308.5 575.58,-308.5 575.58,-272.5 731.58,-272.5 731.58,-308.5"/>
+<text text-anchor="middle" x="653.58" y="-286.8" font-family="Times,serif" font-size="14.00">API ハーブ栽培キット</text>
+</a>
+</g>
+</g>
+<!-- example.presentation.api.kit.StarterKitController&#45;&gt;example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit) -->
+<g id="edge2" class="edge">
+<title>example.presentation.api.kit.StarterKitController&#45;&gt;example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit)</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M575.44,-279.74C552.33,-276.55 526.79,-273.03 502.83,-269.73"/>
+</g>
+<!-- example.application.service.StarterKitService.listAll() -->
+<g id="node5" class="node">
+<title>example.application.service.StarterKitService.listAll()</title>
+<g id="a_node5"><a xlink:title="StarterKitService.listAll()">
+<ellipse fill="greenyellow" stroke="black" cx="645.18" cy="-334.93" rx="131.08" ry="18"/>
+<text text-anchor="middle" x="645.18" y="-331.23" font-family="Times,serif" font-size="14.00">ハーブ栽培キットを一覧する</text>
+</a>
+</g>
+</g>
+<!-- example.presentation.api.kit.StarterKitController&#45;&gt;example.application.service.StarterKitService.listAll() -->
+<g id="edge5" class="edge">
+<title>example.presentation.api.kit.StarterKitController&#45;&gt;example.application.service.StarterKitService.listAll()</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M650.17,-308.57C649.66,-311.26 649.13,-314.04 648.62,-316.73"/>
+</g>
+<!-- example.presentation.web.kit.StarterKitController -->
+<g id="node4" class="node">
+<title>example.presentation.web.kit.StarterKitController</title>
+<g id="a_node4"><a xlink:title="StarterKitController">
+<polygon fill="lightgray" stroke="black" points="460.77,-319.36 272.77,-319.36 272.77,-283.36 460.77,-283.36 460.77,-319.36"/>
+<text text-anchor="middle" x="366.77" y="-297.66" font-family="Times,serif" font-size="14.00">ハーブ栽培キット管理画面</text>
+</a>
+</g>
+</g>
+<!-- example.presentation.web.kit.StarterKitController&#45;&gt;example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit) -->
+<g id="edge3" class="edge">
+<title>example.presentation.web.kit.StarterKitController&#45;&gt;example.application.service.StarterKitRegisterService.register(example.domain.model.kit.StarterKit)</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M384.28,-283.28C386.98,-280.5 389.76,-277.62 392.46,-274.84"/>
+</g>
+<!-- example.domain.model.kit.StarterKitList -->
+<g id="node6" class="node">
+<title>example.domain.model.kit.StarterKitList</title>
+<g id="a_node6"><a xlink:title="StarterKitList">
+<polygon fill="none" stroke="black" points="695.2,-396.96 579.2,-396.96 579.2,-360.96 695.2,-360.96 695.2,-396.96"/>
+<text text-anchor="middle" x="637.2" y="-375.26" font-family="Times,serif" font-size="14.00">栽培キット一覧</text>
+</a>
+</g>
+</g>
+<!-- example.domain.model.kit.StarterKitList&#45;&gt;example.application.service.StarterKitService.listAll() -->
+<g id="edge4" class="edge">
+<title>example.domain.model.kit.StarterKitList&#45;&gt;example.application.service.StarterKitService.listAll()</title>
+<path fill="none" stroke="black" stroke-width="2" d="M640.49,-360.8C640.96,-358.24 641.43,-355.61 641.9,-353.05"/>
+</g>
+<!-- example.application.service.VarietyRegisterService.register(example.domain.model.kit.row.Variety) -->
+<g id="node7" class="node">
+<title>example.application.service.VarietyRegisterService.register(example.domain.model.kit.row.Variety)</title>
+<g id="a_node7"><a xlink:title="VarietyRegisterService.register(Variety)">
+<ellipse fill="greenyellow" stroke="black" cx="328.95" cy="-64.17" rx="103.18" ry="18"/>
+<text text-anchor="middle" x="328.95" y="-60.47" font-family="Times,serif" font-size="14.00">ハーブ品種を登録する</text>
+</a>
+</g>
+</g>
+<!-- example.domain.model.kit.row.Variety -->
+<g id="node8" class="node">
+<title>example.domain.model.kit.row.Variety</title>
+<g id="a_node8"><a xlink:title="Variety">
+<polygon fill="none" stroke="black" points="366.07,-35.65 264.07,-35.65 264.07,0.35 366.07,0.35 366.07,-35.65"/>
+<text text-anchor="middle" x="315.07" y="-13.95" font-family="Times,serif" font-size="14.00">ハーブの品種</text>
+</a>
+</g>
+</g>
+<!-- example.application.service.VarietyRegisterService.register(example.domain.model.kit.row.Variety)&#45;&gt;example.domain.model.kit.row.Variety -->
+<g id="edge6" class="edge">
+<title>example.application.service.VarietyRegisterService.register(example.domain.model.kit.row.Variety)&#45;&gt;example.domain.model.kit.row.Variety</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M323.54,-46.05C322.54,-42.68 321.49,-39.16 320.48,-35.79"/>
+</g>
+<!-- example.presentation.api.kit.VarietyController -->
+<g id="node9" class="node">
+<title>example.presentation.api.kit.VarietyController</title>
+<g id="a_node9"><a xlink:title="VarietyController">
+<polygon fill="lightgray" stroke="black" points="611.54,-101.99 498.54,-101.99 498.54,-65.99 611.54,-65.99 611.54,-101.99"/>
+<text text-anchor="middle" x="555.04" y="-80.29" font-family="Times,serif" font-size="14.00">API ハーブ品種</text>
+</a>
+</g>
+</g>
+<!-- example.presentation.api.kit.VarietyController&#45;&gt;example.application.service.VarietyRegisterService.register(example.domain.model.kit.row.Variety) -->
+<g id="edge7" class="edge">
+<title>example.presentation.api.kit.VarietyController&#45;&gt;example.application.service.VarietyRegisterService.register(example.domain.model.kit.row.Variety)</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M498.28,-79.01C474.99,-76.97 447.43,-74.56 421.38,-72.27"/>
+</g>
+<!-- example.application.service.VarietyService.listAll() -->
+<g id="node11" class="node">
+<title>example.application.service.VarietyService.listAll()</title>
+<g id="a_node11"><a xlink:title="VarietyService.listAll()">
+<ellipse fill="greenyellow" stroke="black" cx="588.2" cy="-128" rx="103.18" ry="18"/>
+<text text-anchor="middle" x="588.2" y="-124.3" font-family="Times,serif" font-size="14.00">ハーブ品種を一覧する</text>
+</a>
+</g>
+</g>
+<!-- example.presentation.api.kit.VarietyController&#45;&gt;example.application.service.VarietyService.listAll() -->
+<g id="edge10" class="edge">
+<title>example.presentation.api.kit.VarietyController&#45;&gt;example.application.service.VarietyService.listAll()</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M568.72,-102.14C570.65,-104.7 572.63,-107.33 574.55,-109.89"/>
+</g>
+<!-- example.presentation.web.kit.VarietyController -->
+<g id="node10" class="node">
+<title>example.presentation.web.kit.VarietyController</title>
+<g id="a_node10"><a xlink:title="VarietyController">
+<polygon fill="lightgray" stroke="black" points="159.35,-113.26 0.35,-113.26 0.35,-77.26 159.35,-77.26 159.35,-113.26"/>
+<text text-anchor="middle" x="79.85" y="-91.56" font-family="Times,serif" font-size="14.00">ハーブ品種の管理画面</text>
+</a>
+</g>
+</g>
+<!-- example.presentation.web.kit.VarietyController&#45;&gt;example.application.service.VarietyRegisterService.register(example.domain.model.kit.row.Variety) -->
+<g id="edge8" class="edge">
+<title>example.presentation.web.kit.VarietyController&#45;&gt;example.application.service.VarietyRegisterService.register(example.domain.model.kit.row.Variety)</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M159.35,-85.34C186.54,-81.95 217.05,-78.14 244.61,-74.7"/>
+</g>
+<!-- example.domain.model.kit.row.Varieties -->
+<g id="node12" class="node">
+<title>example.domain.model.kit.row.Varieties</title>
+<g id="a_node12"><a xlink:title="Varieties">
+<polygon fill="none" stroke="black" points="693.68,-190.57 577.68,-190.57 577.68,-154.57 693.68,-154.57 693.68,-190.57"/>
+<text text-anchor="middle" x="635.68" y="-168.87" font-family="Times,serif" font-size="14.00">ハーブ品種一覧</text>
+</a>
+</g>
+</g>
+<!-- example.domain.model.kit.row.Varieties&#45;&gt;example.application.service.VarietyService.listAll() -->
+<g id="edge9" class="edge">
+<title>example.domain.model.kit.row.Varieties&#45;&gt;example.application.service.VarietyService.listAll()</title>
+<path fill="none" stroke="black" stroke-width="2" d="M616.37,-154.44C613.39,-151.65 610.31,-148.76 607.34,-145.97"/>
+</g>
+</g>
+</svg>

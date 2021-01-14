@@ -94,3 +94,15 @@ java -jar ./build/libs/mapping-1.0-SNAPSHOT.jar -Xms256m --spring.profiles.activ
 ./gradlew schemaSpy
  open ./build/schemaSpy/index.html 
 ```
+
+### ドキュメントを生成する
+
+```
+ ./gradlew publishDocs
+```
+
+[生成ドキュメント](./docs/README.md)
+
+### 参照
+
+- [PlantUML Example for RDRA 2.0 ハンドブック](https://qiita.com/ogomr/items/97058a87337eaa2ba21a)

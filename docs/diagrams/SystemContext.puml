@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+
+actor 会員
+actor 図書館員
+agent 書籍通販会社
+
+会員 -- (図書館システム)
+図書館員 -- (図書館システム)
+note right : システム化の目的
+
+(図書館システム) -- 書籍通販会社
+@enduml

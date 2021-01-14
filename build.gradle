@@ -5,6 +5,7 @@ plugins {
     id 'org.dddjava.jig-gradle-plugin' version '2020.6.2.1'
     id 'de.undercouch.download' version '4.0.1'
     id "com.arenagod.gradle.MybatisGenerator" version "1.3"
+    id 'com.cosminpolifronie.gradle.plantuml' version '1.6.0'
 }
 
 group 'org.example'
@@ -50,7 +51,7 @@ test {
 }
 
 [compileJava, processResources]*.shouldRunAfter(clean)
-jigReports.dependsOn(clean, classes)
+jigReports.dependsOn(classes)
 
 // SchemaSpy Task
 configurations {
@@ -100,8 +101,17 @@ tasks.register( 'schemaSpy', JavaExec ) {
     doFirst {
         outputDir.deleteDir()
     }
+
+    doLast {
+        copy{
+            from "./build/schemaSpy/diagrams/summary"
+            into "./build/erd"
+            include "**/*.png"
+        }
+    }
 }
 
+// MyBatisGenerator
 configurations {
     mybatisGenerator
 }
@@ -118,3 +128,35 @@ mybatisGenerator {
         mybatisGenerator  'com.h2database:h2:1.4.200'
     }
 }
+
+// DocumentGenerator
+plantUml {
+    render input: "docs/diagrams/*.puml", output: "docs/img/diagrams", format: 'png', withMetadata: false
+}
+
+task cleanBuildDocs(type: Delete) {
+    delete "./build/jig"
+    delete "./build/schemaSPY"
+    delete "./build/erd"
+}
+
+task cleanImage(type: Delete) {
+    delete "./docs/img"
+}
+
+task syncJigImage(type: Sync) {
+    from "./build/jig"
+    into "./docs/img/jig"
+    include "**/*.svg"
+}
+
+task syncErdImage(type: Sync) {
+    from "./build/erd"
+    into "./docs/img/erd"
+    include "**/*.png"
+}
+
+task syncImage(type: GradleBuild, dependsOn: ['syncJigImage', 'syncErdImage'])
+
+task publishDocs (type: GradleBuild, dependsOn: ['cleanImage', 'schemaSpy', 'syncErdImage', 'jigReports', 'syncJigImage', 'plantUml'])
+publishDocs.dependsOn cleanBuildDocs

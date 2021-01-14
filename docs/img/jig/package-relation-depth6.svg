@@ -1,0 +1,101 @@
+<svg width="439px" height="345px"
+ viewBox="0.00 0.00 439.00 345.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 341)">
+<title>パッケージ関連図</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-341 435,-341 435,4 -4,4"/>
+<text text-anchor="middle" x="215.5" y="-7.8" font-family="Times,serif" font-size="14.00">パッケージ関連図</text>
+<g id="clust1" class="cluster">
+<title>cluster_example.domain.model.kit.row</title>
+<polygon fill="lemonchiffon" stroke="#eedd82" stroke-width="2" points="275,-237 275,-329 423,-329 423,-237 275,-237"/>
+<text text-anchor="middle" x="349" y="-313.8" font-family="Times,serif" font-size="14.00">列</text>
+<text text-anchor="middle" x="349" y="-298.8" font-family="Times,serif" font-size="14.00">kit.row</text>
+</g>
+<!-- summary -->
+<g id="node1" class="node">
+<title>summary</title>
+<polygon fill="none" stroke="black" points="110,-283 0,-283 0,-245 116,-245 116,-277 110,-283"/>
+<polyline fill="none" stroke="black" points="110,-283 110,-277 "/>
+<polyline fill="none" stroke="black" points="116,-277 110,-277 "/>
+<text text-anchor="start" x="8" y="-267.8" font-family="Times,serif" font-size="14.00">パッケージ数: 6</text>
+<text text-anchor="start" x="8" y="-252.8" font-family="Times,serif" font-size="14.00">関連数: 6</text>
+</g>
+<!-- example.domain.model.kit -->
+<g id="node2" class="node">
+<title>example.domain.model.kit</title>
+<polygon fill="#eedd82" stroke="black" points="265.5,-283 134.5,-283 134.5,-245 265.5,-245 265.5,-283"/>
+<text text-anchor="middle" x="200" y="-267.8" font-family="Times,serif" font-size="14.00">ハーブ栽培キット</text>
+<text text-anchor="middle" x="200" y="-252.8" font-family="Times,serif" font-size="14.00">kit</text>
+</g>
+<!-- example.domain.type -->
+<g id="node3" class="node">
+<title>example.domain.type</title>
+<polygon fill="#eedd82" stroke="black" points="256.5,-61 121.5,-61 121.5,-23 256.5,-23 256.5,-61"/>
+<text text-anchor="middle" x="189" y="-45.8" font-family="Times,serif" font-size="14.00">基本型(primitives)</text>
+<text text-anchor="middle" x="189" y="-30.8" font-family="Times,serif" font-size="14.00">example.domain.type</text>
+</g>
+<!-- example.domain.model.kit&#45;&gt;example.domain.type -->
+<g id="edge1" class="edge">
+<title>example.domain.model.kit&#45;&gt;example.domain.type</title>
+<path fill="none" stroke="black" d="M188.68,-244.77C183.06,-234.64 176.87,-221.58 174,-209 163.14,-161.4 173.11,-104.43 181.17,-71.12"/>
+<polygon fill="black" stroke="black" points="184.63,-71.73 183.69,-61.18 177.84,-70.01 184.63,-71.73"/>
+</g>
+<!-- example.domain.model.kit.specification -->
+<g id="node4" class="node">
+<title>example.domain.model.kit.specification</title>
+<polygon fill="#eedd82" stroke="black" points="314.5,-209 183.5,-209 183.5,-171 314.5,-171 314.5,-209"/>
+<text text-anchor="middle" x="249" y="-193.8" font-family="Times,serif" font-size="14.00">栽培キットの仕様</text>
+<text text-anchor="middle" x="249" y="-178.8" font-family="Times,serif" font-size="14.00">kit.specification</text>
+</g>
+<!-- example.domain.model.kit&#45;&gt;example.domain.model.kit.specification -->
+<g id="edge2" class="edge">
+<title>example.domain.model.kit&#45;&gt;example.domain.model.kit.specification</title>
+<path fill="none" stroke="black" d="M212.36,-244.83C217.95,-236.62 224.66,-226.76 230.81,-217.73"/>
+<polygon fill="black" stroke="black" points="233.74,-219.65 236.47,-209.41 227.95,-215.71 233.74,-219.65"/>
+</g>
+<!-- example.domain.model.kit.specification&#45;&gt;example.domain.type -->
+<g id="edge5" class="edge">
+<title>example.domain.model.kit.specification&#45;&gt;example.domain.type</title>
+<path fill="none" stroke="black" d="M231.94,-170.85C223.53,-160.95 213.94,-148.07 208,-135 198.76,-114.67 193.97,-89.78 191.51,-71.01"/>
+<polygon fill="black" stroke="black" points="194.98,-70.55 190.35,-61.02 188.03,-71.36 194.98,-70.55"/>
+</g>
+<!-- example.domain.model.kit.feature -->
+<g id="node5" class="node">
+<title>example.domain.model.kit.feature</title>
+<polygon fill="#eedd82" stroke="black" points="289,-135 217,-135 217,-97 289,-97 289,-135"/>
+<text text-anchor="middle" x="253" y="-119.8" font-family="Times,serif" font-size="14.00">特徴</text>
+<text text-anchor="middle" x="253" y="-104.8" font-family="Times,serif" font-size="14.00">kit.feature</text>
+</g>
+<!-- example.domain.model.kit.specification&#45;&gt;example.domain.model.kit.feature -->
+<g id="edge3" class="edge">
+<title>example.domain.model.kit.specification&#45;&gt;example.domain.model.kit.feature</title>
+<path fill="none" stroke="black" d="M250.01,-170.83C250.44,-163.13 250.95,-153.97 251.42,-145.42"/>
+<polygon fill="black" stroke="black" points="254.92,-145.59 251.98,-135.41 247.93,-145.2 254.92,-145.59"/>
+</g>
+<!-- example.domain.model.kit.row -->
+<g id="node6" class="node">
+<title>example.domain.model.kit.row</title>
+<polygon fill="#eedd82" stroke="black" points="363,-135 307,-135 307,-97 363,-97 363,-135"/>
+<text text-anchor="middle" x="335" y="-119.8" font-family="Times,serif" font-size="14.00">列</text>
+<text text-anchor="middle" x="335" y="-104.8" font-family="Times,serif" font-size="14.00">kit.row</text>
+</g>
+<!-- example.domain.model.kit.specification&#45;&gt;example.domain.model.kit.row -->
+<g id="edge4" class="edge">
+<title>example.domain.model.kit.specification&#45;&gt;example.domain.model.kit.row</title>
+<path fill="none" stroke="black" d="M270.7,-170.83C281.19,-162.05 293.95,-151.37 305.32,-141.85"/>
+<polygon fill="black" stroke="black" points="307.88,-144.27 313.31,-135.16 303.39,-138.9 307.88,-144.27"/>
+</g>
+<!-- example.domain.model.kit.row&#45;&gt;example.domain.type -->
+<g id="edge6" class="edge">
+<title>example.domain.model.kit.row&#45;&gt;example.domain.type</title>
+<path fill="none" stroke="black" d="M306.85,-101.12C286.44,-91.05 258.39,-77.22 234.78,-65.58"/>
+<polygon fill="black" stroke="black" points="236.16,-62.35 225.64,-61.07 233.06,-68.63 236.16,-62.35"/>
+</g>
+<!-- example.domain.model.kit.row.validation -->
+<g id="node7" class="node">
+<title>example.domain.model.kit.row.validation</title>
+<polygon fill="#eedd82" stroke="black" points="414.5,-283 283.5,-283 283.5,-245 414.5,-245 414.5,-283"/>
+<text text-anchor="middle" x="349" y="-267.8" font-family="Times,serif" font-size="14.00">追加・削除の制約</text>
+<text text-anchor="middle" x="349" y="-252.8" font-family="Times,serif" font-size="14.00">validation</text>
+</g>
+</g>
+</svg>

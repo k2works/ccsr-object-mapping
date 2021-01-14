@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+
+actor 会員
+agent 窓口
+
+会員 -- (会員登録)
+(会員登録) -- 窓口
+
+会員 -- (期限管理)
+(期限管理) -- 窓口
+@enduml
