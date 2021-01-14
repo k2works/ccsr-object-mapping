@@ -91,7 +91,7 @@ tasks.register( 'schemaSpy', JavaExec ) {
             '-u', 'root',
             '-p', 'root',
             '-db', 'appdb',
-            '-s', 'public',
+            '-s', '商品',
             '-font', 'HeiseiKakuGo-W5',
             '-o', outputDir
     ]
